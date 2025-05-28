@@ -65,11 +65,9 @@ Prepare Input:
 Create an Excel file named Input.xlsx with a sheet containing a column titled Input. Each row should contain a Google Maps search keyword (e.g., cafes in Mumbai, plumbers in Bangalore).
 
 Run the Script:
-
-bash
-Copy
-Edit
+```
 python scraper.py
+```
 Output:
 Results will be saved inside the Output/ directory as separate Excel files for each search keyword.
 
@@ -88,6 +86,7 @@ All scraping activity is recorded in GMB_city_extraction.log.
 Each output file includes:
 
 ID	Company_Name	Contact_Number	Email	Ratings	Reviews	Address	Website
+-------------------------------------------------------------------------------------
 1	ABC Cafe	+91-9876543210	hello@abccafe.com			Bandra, Mumbai	www.abccafe.com
 
 ⚠️ Disclaimer
@@ -97,7 +96,5 @@ Use responsibly and ensure compliance with local data protection laws.
 
 🙌 Acknowledgements
 Selenium
-
 WebDriver Manager
-
 Google Maps
