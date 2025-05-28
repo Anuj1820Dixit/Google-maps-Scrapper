@@ -84,17 +84,17 @@ All scraping activity is recorded in GMB_city_extraction.log.
 
 📌 Example Output
 Each output file includes:
-
-ID	Company_Name	Contact_Number	Email	Ratings	Reviews	Address	Website
--------------------------------------------------------------------------------------
-1	ABC Cafe	+91-9876543210	hello@abccafe.com			Bandra, Mumbai	www.abccafe.com
-
+```
+ID	Company_Name	Contact_Number	   Email	        Ratings	Reviews	    Address	              Website
+-------------------------------------------------------------------------------------------------------------
+1	   ABC Cafe	   +91-9876543210	  hello@abccafe.com			              Bandra, Mumbai	       www.abccafe.com
+```
 ⚠️ Disclaimer
 This tool is intended for educational and research purposes only. Web scraping Google Maps may violate their Terms of Service, and excessive automated access may result in temporary IP bans.
 
 Use responsibly and ensure compliance with local data protection laws.
 
 🙌 Acknowledgements
-Selenium
-WebDriver Manager
-Google Maps
+- Selenium
+- WebDriver Manager
+- Google Maps
