@@ -53,9 +53,6 @@ Install dependencies via:
 pip install -r requirements.txt
 ```
 Example requirements.txt:
-nginx
-Copy
-Edit
 selenium
 pandas
 requests
